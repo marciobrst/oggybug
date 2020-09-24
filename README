@@ -1,0 +1,12 @@
+OGGY BUG 
+
+Baixando os fontes
+ git clone https://github.com/marciobrst/oggybug-core.git
+
+Instalação os pacotes
+ npm install
+
+Rodando o servidor
+ export PORT = 9090
+ export MONGODB_URI = 'mongodb://db:27017/putforth' //url de um banco de dados mongodb
+ node index.js
